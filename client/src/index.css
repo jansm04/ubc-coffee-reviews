@@ -1,0 +1,240 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Cantarell&family=PT+Sans&display=swap');
+
+
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+  --ubc: #0666a1;
+  --darkubc: #043f63;
+}
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Barlow";
+}
+
+header {
+  background-color: var(--darkubc);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.308);
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .container {
+  padding: 12px 20px;
+}
+
+header .logo h1 {
+  padding-left: 6rem;
+  display: inline-block;
+  color: #f1f1f1;
+}
+
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 6rem;
+}
+
+/* podium */
+.standings-header {
+  margin-top: 30px;
+  width: 20%;
+  padding: 10px;
+  background-color: var(--ubc);
+  color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+.podium {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: end;
+}
+.podium h2 {
+  text-align: center;
+}
+.podium .shop-logo {
+  text-align: center;
+  width: 80%;
+  margin: 0 40px;
+  padding: 0;
+}
+.first-podium {
+  background-color: gold;
+  height: 80px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+.second-podium {
+  background-color: silver;
+  height: 60px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+.third-podium {
+  background-color: rgb(138, 90, 44);
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+.break {
+  height: 1px;
+  background-color: rgb(174, 173, 173);
+  width: 100%;
+}
+.runners-up {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+}
+.runners-up p {
+  background-color: #ffffff;
+  padding: 5px;
+  margin-top: 0;
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+
+
+
+
+.home {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 100px;
+}
+
+/* reviews */
+.reviews {
+  margin-top: 80px;
+}
+.filter-shops {
+  display: grid;
+  grid-template-columns: 1fr 5fr 5fr;
+}
+.filter-shops label {
+  padding-top: 9px;
+}
+.filter-shops select {
+  width: 70%;
+}
+.total-results {
+  text-align: right;
+}
+.reviews-header {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--ubc);
+  color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+
+.review-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 0;
+  position: relative;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.05);
+}
+.review-header {
+  background-color: rgb(233, 233, 233);
+  border-radius: 4px;
+  padding: 5px 5px 5px 20px;
+  display: flex;
+  align-items: center;
+}
+.review-header p {
+  padding: 5px;
+  margin-right: 40px;
+}
+.review {
+  padding: 25px;
+}
+.date {
+  text-align: right;
+  padding-right: 20px;
+}
+
+/* new workout form */
+form {
+  margin-top: 20px;
+}
+.post-review-header {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--ubc);
+  color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+  margin-top: 200px;
+}
+label, input, select, textarea {
+  display: block;
+}
+.review-input {
+  height: 100px;
+  text-align: start;
+}  
+
+input, select, textarea {
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-size: 15px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--ubc);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  width: 40%;
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: "Barlow";
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.05);
+}
+form button:hover {
+  background: #1882b2;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error)
+}
+
+/* Footer */
+.footer .container {
+  margin-top: 100px;
+  height: 60px;
+  background-color: var(--darkubc);
+}
+
+.footer .container p {
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
