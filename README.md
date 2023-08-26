@@ -1,10 +1,2 @@
-# ubc-coffee-reviews
-A full-stack UBC coffee reviews application. Pubish ratings and reviews. See how your favourite shops on campus rank among the others.
-
-To run server:
-1) cd server
-2) npm run dev
-
-To run react app:
-1) cd client
-2) npm start
+# UBC RateMyCoffs
+The purpose of this application is to provide a coffee reviews platform exclusive to UBC students. Users will be able to publish ratings and reviews for every coffee shop on campus, as well as see a full coffee shop ranking based on the positive to negative review ratio - similar to RottenTomatos' form of reviews. I built this project as 1) a way to become familiar with useful concepts in full stack development such as a CRUD API or implementing server/client interaction, and 2) to expand my knowledge with the MongoDB, Express, React and Node.js.
