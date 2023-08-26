@@ -1,5 +1,5 @@
 # ubc-coffee-reviews
-A full-stack UBC coffee reviews application.
+A full-stack UBC coffee reviews application. Pubish ratings and reviews. See how your favourite shops on campus rank among the others.
 
 To run server:
 1) cd server
