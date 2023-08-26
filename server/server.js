@@ -16,7 +16,9 @@ app.use((req, res, next) => {
     next()
 })
 app.use(cors({
-    origin: ["http://localhost:3000", "https://ubc-coffee-reviews.onrender.com"]
+    origin: ['https://ubc-coffee-reviews-er90hvc27-jansm04.vercel.app'],
+    methods: ['POST', 'GET', 'DELETE'],
+    credentials: true
 }))
 
 
